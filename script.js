@@ -9,7 +9,11 @@ for (i = 5; i <= 25; i += 4){
 };
 
 // 3a.
-const wizards = [`Harry Potter`, `Hermione Granger`, `Ron Weasley`]
+const wizards = [
+    `Harry Potter`,
+    `Hermione Granger`,
+    `Ron Weasley`
+];
 // 3b.
 for (item of wizards){
     console.log(item);
@@ -26,4 +30,24 @@ console.log(`${harryPotterMovies - 1}`);
 
 // BONUS
 
-// 5a
+// 5a.
+const hogwartsHouses = [
+    `Gryffindor`,
+    `Hufflepuff`,
+    `Ravenclaw`,
+    `Slytherin`    
+];
+// 5b.
+for (houses of hogwartsHouses){
+    for (letters of houses){
+        console.log(letters);
+    }
+};
+// 6a.
+const quote = [
+    `Yer`,
+    `A`,
+    `Wizard`,
+    `Harry`
+];
+// 6b.
