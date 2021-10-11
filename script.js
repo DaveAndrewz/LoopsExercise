@@ -51,3 +51,5 @@ const quote = [
     `Harry`
 ];
 // 6b.
+let whatIsHe = quote.join(' ');
+console.log(whatIsHe);
