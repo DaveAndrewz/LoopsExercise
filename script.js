@@ -25,7 +25,7 @@ while (harryPotterMovies <= 8){
     harryPotterMovies++;
 }
 // 4c.
-console.log(`${harryPotterMovies - 1}`);
+console.log(harryPotterMovies-1);
 
 
 // BONUS
@@ -51,5 +51,21 @@ const quote = [
     `Harry`
 ];
 // 6b.
-let whatIsHe = quote.join(' ');
-console.log(whatIsHe);
+// let whatIsHe = quote.join(' ');
+// console.log(whatIsHe);
+
+
+// ! MAIANNE METHOD!!! ! \\
+// let whatIsHe = "";
+// while (quote !== whatIsHe){
+//     console.log(quote.join(" "));
+//     break;
+// }
+
+// ! Actual Way ! \\
+let whatAmI = "";
+for (word of quote){
+    whatAmI += `${word} `;
+}
+console.log(whatAmI.trim());
+
